@@ -10,7 +10,7 @@ This site is created with awesome project of [Bootstrap Image Gallery](https://g
 ...It will be the configurable template.
 
 ## Demo
-[Pic](https://dl.dropboxusercontent.com/u/13087773/kepc/Pic/index.html "Pic")
+[Pic](http://pen-guin.github.io/flickr-gallery-site/ "Pic")
 
 ## License
 [MIT license](http://www.opensource.org/licenses/MIT "MIT license").
