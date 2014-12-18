@@ -47,7 +47,7 @@ $(function () {
             data: {
                 format: 'json',
                 method: 'flickr.photos.search',
-                api_key: '/* your flickr api key */',
+                api_key: '455acff28c45a1a5fd1e873bb111bbc3',
                 user_id: flickr_userid,
                 sort: 'date-posted-desc'
             },
