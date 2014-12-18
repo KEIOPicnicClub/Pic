@@ -5,7 +5,8 @@ Photo gallery site for my friend
 
 ![Site](https://raw.githubusercontent.com/Pen-Guin/flickr-gallery-site/master/Pic.png)
 
-This site is created with awesome project of [Bootstrap Image Gallery](https://github.com/blueimp/Bootstrap-Image-Gallery "Bootstrap Image Gallery") 
+This site is created with awesome project of [Bootstrap Image Gallery](https://github.com/blueimp/Bootstrap-Image-Gallery "Bootstrap Image Gallery") .
+
 The functions added is as below.
 * Skipping to the bottom secion as the introduction of a photographer
 * Search filterling the photos by tag
