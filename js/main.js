@@ -1,16 +1,13 @@
 /*
- * Bootstrap Image Gallery JS Demo 3.0.1
- * https://github.com/blueimp/Bootstrap-Image-Gallery
+ * flickr-gallery-site
+ * https://github.com/Pen-Guin/flickr-gallery-site
  *
- * Copyright 2013, Sebastian Tschan
- * https://blueimp.net
+ * Copyright 2014, KEIO Picnic Club
+ * http://keiopicnicclub.jimdo.com/
  *
  * Licensed under the MIT license:
  * http://www.opensource.org/licenses/MIT
  */
-
-/*jslint unparam: true */
-/*global blueimp, $ */
 
 $(function () {
     'use strict';
@@ -47,7 +44,7 @@ $(function () {
             data: {
                 format: 'json',
                 method: 'flickr.photos.search',
-                api_key: '/* your flickr api key */',
+                api_key: '455acff28c45a1a5fd1e873bb111bbc3',
                 user_id: flickr_userid,
                 sort: 'date-posted-desc'
             },
