@@ -9,3 +9,6 @@ Photo gallery site for my friend
 This site is created with awesome project of [Bootstrap Image Gallery](https://github.com/blueimp/Bootstrap-Image-Gallery "Bootstrap Image Gallery") 
 
 ...It will be the configurable template.
+
+## License
+[MIT license](http://www.opensource.org/licenses/MIT "MIT license").
