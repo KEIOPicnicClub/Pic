@@ -35,8 +35,11 @@ $(function () {
     //$('#icon').on('click', searchAll);
 
     $('#dropdown').on('click', searchAllorPicnic);
+    $('#photosize').on('click', changePhotoSize);
 
     function searchAll() {
+        console.log("searchAll");
+
         $('#links').empty(); // 写真を全て削除
 
         $.ajax({
@@ -69,6 +72,8 @@ $(function () {
     }
 
     function searchAllorPicnic(event) {
+        console.log("searchAllorPicnic");
+
         if(event.target.id == "ALL") {
             searchAll();
         }
@@ -78,6 +83,8 @@ $(function () {
     }
 
     function searchPicnic(event) {
+        console.log("searchPicnic");
+
         $('#links').empty(); // 写真を全て削除
 
         $.ajax({
@@ -108,6 +115,29 @@ $(function () {
                     .attr('data-gallery', '')
                     .appendTo(linksContainer);
             });
+        });
+    }
+
+    function changePhotoSize(event) {
+        console.log("changePhotoSize");
+
+        console.log(event.target.id);
+        if(event.target.id == "sizeL") {
+            setPhotoWidth("100%");
+        }
+        else if(event.target.id == "sizeM") {
+            setPhotoWidth("25%");
+        }
+        else if(event.target.id == "sizeS") {
+            setPhotoWidth("10%");
+        }
+    }
+
+    function setPhotoWidth(width) {
+        console.log("setPhotoWidth");
+
+        $('#links img').fadeOut(function() {
+            $('#links img').css("width", width).fadeIn();
         });
     }
 
