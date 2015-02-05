@@ -1,10 +1,10 @@
 @charset "UTF-8";
 /*
- * flickr-gallery-site
- * https://github.com/Pen-Guin/flickr-gallery-site
+ * Bootstrap Image Gallery Demo CSS 3.0.0
+ * https://github.com/blueimp/Bootstrap-Image-Gallery
  *
- * Copyright 2014, KEIO Picnic Club
- * http://keiopicnicclub.jimdo.com/
+ * Copyright 2013, Sebastian Tschan
+ * https://blueimp.net
  *
  * Licensed under the MIT license:
  * http://www.opensource.org/licenses/MIT
@@ -84,13 +84,13 @@ img {
 .navbar-inverse .navbar-brand:hover {
 	color: #555;
 }
-.ruriko-main {
+.copyright {
 	text-align:center;
 }
-.ruriko-image {
-	height: 200px;
-	width: 200px;
-    border-radius: 200px;
+.kepc-image {
+	height: 184px;
+	width: 120px;
+    /*border-radius: 200px;
     margin-top:50px;
-    margin-bottom:50px;
+    margin-bottom:50px;*/
 }
