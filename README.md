@@ -16,7 +16,7 @@ The functions added is as below.
 Anyways I would like to generate the introduction of a photographer and the search list automatically.
 
 ## Demo
-[Pic](http://pen-guin.github.io/flickr-gallery-site/ "Pic")
+[Pic](http://keiopicnicclub.github.io/Pic "Pic")
 
 ## License
 [MIT license](http://www.opensource.org/licenses/MIT "MIT license").
