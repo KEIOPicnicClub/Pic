@@ -174,7 +174,7 @@ $(function () {
             // 対象の要素を表示するかどうか判別
             var e_show = function(i){
                 console.log("e_show: ", arr[i].top);
-                if(scrl_top > arr[i].top - win_h * 0.55){ // 表示位置の基準値を調整する場合はココ
+                if(scrl_top > arr[i].top - win_h * 0.95){ // 表示位置の基準値を調整する場合はココ
                     e_show_anime(i);
                     flag[i] = true;
                 }
