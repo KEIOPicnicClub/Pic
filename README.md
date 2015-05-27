@@ -23,6 +23,7 @@ Anyways I would like to generate the introduction of a photographer and the sear
 
 ## Demo
 <<<<<<< HEAD
+<<<<<<< HEAD
 [Pic](http://keiopicnicclub.github.io/Pic "Pic")
 
 ## License
@@ -30,6 +31,9 @@ Anyways I would like to generate the introduction of a photographer and the sear
 >>>>>>> master
 =======
 [Pic](http://pen-guin.github.io/flickr-gallery-site/ "Pic")
+=======
+[Pic](http://keiopicnicclub.github.io/Pic "Pic")
+>>>>>>> master
 
 ## License
 [MIT license](http://www.opensource.org/licenses/MIT "MIT license").
