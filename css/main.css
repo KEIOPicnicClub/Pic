@@ -1,10 +1,18 @@
 @charset "UTF-8";
 /*
+<<<<<<< HEAD
  * Bootstrap Image Gallery Demo CSS 3.0.0
  * https://github.com/blueimp/Bootstrap-Image-Gallery
  *
  * Copyright 2013, Sebastian Tschan
  * https://blueimp.net
+=======
+ * flickr-gallery-site
+ * https://github.com/Pen-Guin/flickr-gallery-site
+ *
+ * Copyright 2014, KEIO Picnic Club
+ * http://keiopicnicclub.jimdo.com/
+>>>>>>> master
  *
  * Licensed under the MIT license:
  * http://www.opensource.org/licenses/MIT
@@ -84,6 +92,7 @@ img {
 .navbar-inverse .navbar-brand:hover {
 	color: #555;
 }
+<<<<<<< HEAD
 .copyright {
 	text-align:center;
 }
@@ -93,4 +102,15 @@ img {
     /*border-radius: 200px;
     margin-top:50px;
     margin-bottom:50px;*/
+=======
+.ruriko-main {
+	text-align:center;
+}
+.ruriko-image {
+	height: 200px;
+	width: 200px;
+    border-radius: 200px;
+    margin-top:50px;
+    margin-bottom:50px;
+>>>>>>> master
 }
