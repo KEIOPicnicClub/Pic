@@ -36,6 +36,7 @@ $(function () {
 
     $('#dropdown').on('click', searchAllorPicnic);
 <<<<<<< HEAD
+<<<<<<< HEAD
     $('#photosize').on('click', changePhotoSize);
 
     function searchAll() {
@@ -45,6 +46,10 @@ $(function () {
 
     function searchAll() {
 >>>>>>> master
+=======
+
+    function searchAll() {
+>>>>>>> Pen-Guin/master
         $('#links').empty(); // 写真を全て削除
 
         $.ajax({
@@ -74,18 +79,24 @@ $(function () {
                     .appendTo(linksContainer);
             });
 <<<<<<< HEAD
+<<<<<<< HEAD
             initFadeSetting(true);
 =======
 >>>>>>> master
+=======
+>>>>>>> Pen-Guin/master
         });
     }
 
     function searchAllorPicnic(event) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         console.log("searchAllorPicnic");
 
 =======
 >>>>>>> master
+=======
+>>>>>>> Pen-Guin/master
         if(event.target.id == "ALL") {
             searchAll();
         }
@@ -96,10 +107,13 @@ $(function () {
 
     function searchPicnic(event) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         console.log("searchPicnic");
 
 =======
 >>>>>>> master
+=======
+>>>>>>> Pen-Guin/master
         $('#links').empty(); // 写真を全て削除
 
         $.ajax({
@@ -130,6 +144,7 @@ $(function () {
                     .attr('data-gallery', '')
                     .appendTo(linksContainer);
             });
+<<<<<<< HEAD
 <<<<<<< HEAD
             initFadeSetting(true);
         });
@@ -256,6 +271,8 @@ $(function () {
             scrl_show();
 =======
 >>>>>>> master
+=======
+>>>>>>> Pen-Guin/master
         });
     }
 

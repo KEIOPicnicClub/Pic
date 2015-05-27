@@ -4,8 +4,11 @@ flickr-gallery-site
 Photo gallery site for my friend
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 It will be the configurable template.
 =======
+=======
+>>>>>>> Pen-Guin/master
 ![Site](https://raw.githubusercontent.com/Pen-Guin/flickr-gallery-site/master/Pic.png)
 
 This site is created with awesome project of [Bootstrap Image Gallery](https://github.com/blueimp/Bootstrap-Image-Gallery "Bootstrap Image Gallery") .
@@ -19,8 +22,15 @@ The functions added is as below.
 Anyways I would like to generate the introduction of a photographer and the search list automatically.
 
 ## Demo
+<<<<<<< HEAD
 [Pic](http://keiopicnicclub.github.io/Pic "Pic")
 
 ## License
 [MIT license](http://www.opensource.org/licenses/MIT "MIT license").
 >>>>>>> master
+=======
+[Pic](http://pen-guin.github.io/flickr-gallery-site/ "Pic")
+
+## License
+[MIT license](http://www.opensource.org/licenses/MIT "MIT license").
+>>>>>>> Pen-Guin/master
