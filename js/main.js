@@ -22,7 +22,7 @@ $(function () {
     }
     else if (userAgent.indexOf('iphone') != -1) {
         photosize = "z";
-    } 
+    }
     else {
         photosize = "b";
     }
@@ -35,21 +35,11 @@ $(function () {
     //$('#icon').on('click', searchAll);
 
     $('#dropdown').on('click', searchAllorPicnic);
-<<<<<<< HEAD
-<<<<<<< HEAD
     $('#photosize').on('click', changePhotoSize);
 
     function searchAll() {
         console.log("searchAll");
 
-=======
-
-    function searchAll() {
->>>>>>> master
-=======
-
-    function searchAll() {
->>>>>>> Pen-Guin/master
         $('#links').empty(); // 写真を全て削除
 
         $.ajax({
@@ -78,25 +68,13 @@ $(function () {
                     .attr('data-gallery', '')
                     .appendTo(linksContainer);
             });
-<<<<<<< HEAD
-<<<<<<< HEAD
             initFadeSetting(true);
-=======
->>>>>>> master
-=======
->>>>>>> Pen-Guin/master
         });
     }
 
     function searchAllorPicnic(event) {
-<<<<<<< HEAD
-<<<<<<< HEAD
         console.log("searchAllorPicnic");
 
-=======
->>>>>>> master
-=======
->>>>>>> Pen-Guin/master
         if(event.target.id == "ALL") {
             searchAll();
         }
@@ -106,14 +84,8 @@ $(function () {
     }
 
     function searchPicnic(event) {
-<<<<<<< HEAD
-<<<<<<< HEAD
         console.log("searchPicnic");
 
-=======
->>>>>>> master
-=======
->>>>>>> Pen-Guin/master
         $('#links').empty(); // 写真を全て削除
 
         $.ajax({
@@ -144,8 +116,6 @@ $(function () {
                     .attr('data-gallery', '')
                     .appendTo(linksContainer);
             });
-<<<<<<< HEAD
-<<<<<<< HEAD
             initFadeSetting(true);
         });
     }
@@ -200,7 +170,7 @@ $(function () {
             var e_show_anime = function(i){
                 arr[i].elm.stop().fadeIn(1000);
             };
-            
+
             // 対象の要素を表示するかどうか判別
             var e_show = function(i){
                 console.log("e_show: ", arr[i].top);
@@ -269,10 +239,6 @@ $(function () {
             });
 
             scrl_show();
-=======
->>>>>>> master
-=======
->>>>>>> Pen-Guin/master
         });
     }
 
