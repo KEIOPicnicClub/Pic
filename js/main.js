@@ -122,6 +122,7 @@ $(function () {
                       .prop('title', photo.title)
                       .attr('data-gallery', '')
                       .css('width', '100%')
+                      .css('display', 'none')
                       .appendTo(linksContainer);
 
                 }
@@ -131,7 +132,6 @@ $(function () {
                       .prop('href', baseUrl + '_b.jpg')
                       .prop('title', photo.title)
                       .attr('data-gallery', '')
-                      .css('display', 'none')
                       .css('width', '100%')
                       .appendTo(linksContainer);
 
