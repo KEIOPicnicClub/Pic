@@ -109,12 +109,31 @@ $(function () {
             $.each(result.photos.photo, function (index, photo) {
                 baseUrl = 'http://farm' + photo.farm + '.static.flickr.com/' +
                     photo.server + '/' + photo.id + '_' + photo.secret;
-                $('<a/>')
+                /*$('<a/>')
                     .append($('<img>').prop('src', baseUrl + '_' + photosize + '.jpg'))
                     .prop('href', baseUrl + '_b.jpg')
                     .prop('title', photo.title)
                     .attr('data-gallery', '')
-                    .appendTo(linksContainer);
+                    .appendTo(linksContainer);*/
+                if(index !== 0) {
+                  $('<a/>')
+                      .append($('<img>').prop('src', baseUrl + '_' + photosize + '.jpg'))
+                      .prop('href', baseUrl + '_b.jpg')
+                      .prop('title', photo.title)
+                      .attr('data-gallery', '')
+                      .appendTo(linksContainer);
+
+                }
+                else {
+                  $('<a/>')
+                      .append($('<img>').prop('src', baseUrl + '_' + photosize + '.jpg'))
+                      .prop('href', baseUrl + '_b.jpg')
+                      .prop('title', photo.title)
+                      .attr('data-gallery', '')
+                      .css('display', 'none')
+                      .appendTo(linksContainer);
+
+                }
             });
             initFadeSetting(true);
         });
