@@ -35,7 +35,7 @@ $(function () {
     //$('#icon').on('click', searchAll);
 
     $('#dropdown').on('click', searchAllorPicnic);
-    $('#photosize').on('click', changePhotoSize);
+    /*$('#photosize').on('click', changePhotoSize);*/
 
     function searchAll() {
         console.log("searchAll");
@@ -162,7 +162,7 @@ $(function () {
         });
     }
 
-    function changePhotoSize(event) {
+    /*function changePhotoSize(event) {
         console.log("changePhotoSize");
 
         console.log(event.target.id);
@@ -175,7 +175,7 @@ $(function () {
         else if(event.target.id == "sizeS") {
             setPhotoWidth("10%");
         }
-    }
+    }*/
 
     function setPhotoWidth(width) {
         console.log("setPhotoWidth");
